@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600&family=Roboto:wght@500;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600&family=Roboto:wght@500;700;900&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=League+Spartan:wght@100;300;400;600;800;900&family=Pacifico&family=Raleway&family=Rubik&display=swap');
 
 * {
   margin: 0;
@@ -7,7 +9,9 @@
   scroll-behavior: smooth;
   list-style: none;
   text-decoration: none;
-  font-family: 'Noto Sans', sans-serif;
+  /* font-family: 'Noto Sans', sans-serif; */
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'League Spartan', sans-serif;
 }
 
 html {
@@ -237,6 +241,10 @@ margin-bottom: 1.5rem;
   font-size: 1.4rem;
   font-weight: 600
 }
+.card .catagory{
+  font-size: 10px;
+  display: none;
+}
 .card .price{
   font-size: 1.6rem;
   font-weight: 700;
@@ -335,6 +343,23 @@ margin-bottom: 1.5rem;
   max-width: 450px;
   height: auto;
 }
+.update-container .new-update .date{
+  color: #767373;
+  margin: 0.5rem auto;
+}
+.update-container .new-update h4{
+  color: var(--black);
+  margin-bottom: 0.8rem;
+  font-size: 1.6rem;
+}
+
+.update-container .new-update .desc{
+ color: #777777;
+ line-height: 1.3;
+ font-size: 1.5rem;
+ margin-bottom: 1rem;
+}
+
 .update-container img{
   width: 100%;
   height: auto;
@@ -346,6 +371,80 @@ margin-bottom: 1.5rem;
 
 
 
+
+
+
+
+/*-------------------------------------------------------------
+                    NEWS SECTION
+---------------------------------------------------------------*/
+/* .news{
+  background-color: #041E46;
+  height: 20vh;
+  background-image: url('../img/b14.png');
+  background-repeat: no-repeat;
+  background-position-x: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.news div h4{
+  color: var(--white);
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.news div p{
+  color: var(--bgc);
+  font-size: 1.2rem;
+}
+.news div p span{
+  color: var(--orange);
+}
+
+.news .input-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
+.news .input-btn input{
+  padding: 1.5rem 1.5rem;
+  width: 80%;
+  background-color: var(--bgc);
+  border: none;
+  outline: none;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.news .input-btn button{
+  padding: 1.5rem 2.2rem;
+  border: none;
+  color: var(--white);
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  background-color: #088178;
+}
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------
+                     FOOTER SECTION
+---------------------------------------------------------------*/
 .footer-main{
   background-color: var(--bgc);
 }
@@ -376,6 +475,18 @@ margin-bottom: 1.5rem;
   font-size: 2rem;
   font-size: 600;
 }
+.copy-rights{
+ text-align: center;
+ font-size: 14px;
+ margin-top: 50px;
+}
+.footer-container .social{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 2rem;
+  font-size: 1.4rem;
+}
 
 
 
@@ -389,6 +500,7 @@ margin-bottom: 1.5rem;
   html {
     font-size: 56.25%;
   }
+
 }
 
 
@@ -493,6 +605,8 @@ header {
 
 
 
+
+
 /********? footer ***********/
 .footer{
   grid-template-columns: repeat(auto-fit, minmax(250px,auto));
@@ -508,6 +622,7 @@ header {
 
 
 @media screen and (max-width:450px) {
+
   header {
   padding: 0 2rem;
 }
